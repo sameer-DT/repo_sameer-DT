@@ -9,9 +9,10 @@ Rails.application.routes.draw do
   get "/home" => "home#home"
   get "/customer"=>"customer#customer"
   get "/demo"=>"demo#demo"
+
   get '*path', to: 'application#render_404', via: :all
   match "/500", to: "application#render_500", via: :all
-  root "application#home"
+  # root "application#home"
   # Defines the root path route ("/")
   # root "posts#index"
 end
