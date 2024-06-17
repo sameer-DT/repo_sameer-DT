@@ -1,5 +1,5 @@
 # README
-![screenshot](/gitversion.png)
+![screenshot](/screenshot.png)
 <br>
 This README would normally document whatever steps are necessary to get the
 application up and running.
