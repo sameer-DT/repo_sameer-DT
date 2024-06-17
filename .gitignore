@@ -33,3 +33,13 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+# Ignore compiled binaries
+*.exe
+*.o
+*.so
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IntelliJ IDEA project files
+.idea/
